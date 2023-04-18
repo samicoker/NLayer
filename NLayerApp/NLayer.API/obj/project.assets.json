@@ -2306,11 +2306,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Lenovo\\source\\repos\\NLayerApp\\NLayer.API\\NLayer.API.csproj",
+      "projectUniqueName": "C:\\Users\\Lenovo\\Documents\\GitHub\\NLayerApp\\NLayer\\NLayerApp\\NLayer.API\\NLayer.API.csproj",
       "projectName": "NLayer.API",
-      "projectPath": "C:\\Users\\Lenovo\\source\\repos\\NLayerApp\\NLayer.API\\NLayer.API.csproj",
+      "projectPath": "C:\\Users\\Lenovo\\Documents\\GitHub\\NLayerApp\\NLayer\\NLayerApp\\NLayer.API\\NLayer.API.csproj",
       "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Lenovo\\source\\repos\\NLayerApp\\NLayer.API\\obj\\",
+      "outputPath": "C:\\Users\\Lenovo\\Documents\\GitHub\\NLayerApp\\NLayer\\NLayerApp\\NLayer.API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -2327,8 +2327,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Lenovo\\source\\repos\\NLayerApp\\NLayer.Service\\NLayer.Service.csproj": {
-              "projectPath": "C:\\Users\\Lenovo\\source\\repos\\NLayerApp\\NLayer.Service\\NLayer.Service.csproj"
+            "C:\\Users\\Lenovo\\Documents\\GitHub\\NLayerApp\\NLayer\\NLayerApp\\NLayer.Service\\NLayer.Service.csproj": {
+              "projectPath": "C:\\Users\\Lenovo\\Documents\\GitHub\\NLayerApp\\NLayer\\NLayerApp\\NLayer.Service\\NLayer.Service.csproj"
             }
           }
         }

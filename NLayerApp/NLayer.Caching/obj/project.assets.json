@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Lenovo\\source\\repos\\NLayerApp\\NLayer.Caching\\NLayer.Caching.csproj",
+      "projectUniqueName": "C:\\Users\\Lenovo\\Documents\\GitHub\\NLayerApp\\NLayer\\NLayerApp\\NLayer.Caching\\NLayer.Caching.csproj",
       "projectName": "NLayer.Caching",
-      "projectPath": "C:\\Users\\Lenovo\\source\\repos\\NLayerApp\\NLayer.Caching\\NLayer.Caching.csproj",
+      "projectPath": "C:\\Users\\Lenovo\\Documents\\GitHub\\NLayerApp\\NLayer\\NLayerApp\\NLayer.Caching\\NLayer.Caching.csproj",
       "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Lenovo\\source\\repos\\NLayerApp\\NLayer.Caching\\obj\\",
+      "outputPath": "C:\\Users\\Lenovo\\Documents\\GitHub\\NLayerApp\\NLayer\\NLayerApp\\NLayer.Caching\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",

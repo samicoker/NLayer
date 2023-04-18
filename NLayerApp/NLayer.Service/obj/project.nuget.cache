@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "jy3CoVlg0FgCTNYdAjq+y/9solkBr6BCMRjAQm6d7SnWOuhM4anUZ0qObSMPo6qwE4gB4K+zRYrZaxc1b0i23Q==",
+  "dgSpecHash": "exXSciH3CZLyujFkx/uBgtDPgVBWM247CsLjCB/bJG2fAi7t27ZSIKqGSb7gMmqb8UkPgVrsk01uKpSdfJu9Vw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Lenovo\\source\\repos\\NLayerApp\\NLayer.Service\\NLayer.Service.csproj",
+  "projectFilePath": "C:\\Users\\Lenovo\\Documents\\GitHub\\NLayerApp\\NLayer\\NLayerApp\\NLayer.Service\\NLayer.Service.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Lenovo\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\Lenovo\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
