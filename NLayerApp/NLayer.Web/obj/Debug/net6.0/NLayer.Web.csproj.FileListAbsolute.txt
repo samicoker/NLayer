@@ -144,3 +144,7 @@ C:\Users\Lenovo\Documents\GitHub\NLayerApp\NLayer\NLayerApp\NLayer.Web\obj\Debug
 C:\Users\Lenovo\Documents\GitHub\NLayerApp\NLayer\NLayerApp\NLayer.Web\obj\Debug\net6.0\NLayer.Web.pdb
 C:\Users\Lenovo\Documents\GitHub\NLayerApp\NLayer\NLayerApp\NLayer.Web\obj\Debug\net6.0\NLayer.Web.genruntimeconfig.cache
 C:\Users\Lenovo\Documents\GitHub\NLayerApp\NLayer\NLayerApp\NLayer.Web\obj\Debug\net6.0\ref\NLayer.Web.dll
+C:\Users\Lenovo\Documents\GitHub\NLayerApp\NLayer\NLayerApp\NLayer.Web\bin\Debug\net6.0\FluentValidation.dll
+C:\Users\Lenovo\Documents\GitHub\NLayerApp\NLayer\NLayerApp\NLayer.Web\bin\Debug\net6.0\FluentValidation.AspNetCore.dll
+C:\Users\Lenovo\Documents\GitHub\NLayerApp\NLayer\NLayerApp\NLayer.Web\bin\Debug\net6.0\FluentValidation.DependencyInjectionExtensions.dll
+C:\Users\Lenovo\Documents\GitHub\NLayerApp\NLayer\NLayerApp\NLayer.Web\obj\Debug\net6.0\NLayer.Web.MvcApplicationPartsAssemblyInfo.cs
