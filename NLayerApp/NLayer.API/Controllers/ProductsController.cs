@@ -1,6 +1,7 @@
 ﻿using AutoMapper;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using NLayer.API.Filters;
 using NLayer.Core.DTOs;
 using NLayer.Core.Models;
 using NLayer.Core.Services;
@@ -9,6 +10,7 @@ namespace NLayer.API.Controllers
 {
     //[Route("api/[controller]")]
     //[ApiController] 
+    //[ValidateFilterAttribute] buraya yerleştirirsek bu controllerdeki tüm metotlarımızı etkiler ama her controllerin başına eklemektense daha global bir yere koyacağız yani program.cs teki builder.Services.AddControllers parantezine koyacağız
     public class ProductsController : CustomBaseController
     {
         private readonly IMapper _mapper;

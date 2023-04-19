@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 namespace NLayer.Service.Validations
 {
     public class ProductDtoValidator:AbstractValidator<ProductDto>
-    {
+    {  // bunu apinin program.csinde builder.Services.AddControllers a .AddFluentValidation(x=>x.RegisterValidatorsFromAssemblyContaining<ProductDtoValidator>()) diyerek tanımladık
         public ProductDtoValidator()
         {
             RuleFor(x => x.Name).NotNull().WithMessage("{PropertyName} is required").NotEmpty().WithMessage("{PropertyName} is required");
