@@ -12,7 +12,7 @@ using Module = Autofac.Module;
 
 namespace NLayer.Web.Modules
 {
-    public class RepoServiceModule:Module
+    public class RepoServiceModule : Module
     { // bu moduleyi de program.cs de dahil edeceğiz. şöyle : builder.Host.ConfigureContainer<ContainerBuilder>(containerBuilder => containerBuilder.RegisterModule(new RepoServiceModule()));
         protected override void Load(ContainerBuilder builder)
         {
@@ -37,7 +37,7 @@ namespace NLayer.Web.Modules
             //InstancePerLifetimeScope => Scope
             //InstancePerDependency => transient
 
-            
+
 
 
         }
