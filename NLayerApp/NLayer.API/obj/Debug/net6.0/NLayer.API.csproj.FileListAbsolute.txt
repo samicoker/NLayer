@@ -151,3 +151,5 @@ C:\Users\Lenovo\Documents\GitHub\NLayerApp\NLayer\NLayerApp\NLayer.API\obj\Debug
 C:\Users\Lenovo\Documents\GitHub\NLayerApp\NLayer\NLayerApp\NLayer.API\bin\Debug\net6.0\FluentValidation.dll
 C:\Users\Lenovo\Documents\GitHub\NLayerApp\NLayer\NLayerApp\NLayer.API\bin\Debug\net6.0\FluentValidation.AspNetCore.dll
 C:\Users\Lenovo\Documents\GitHub\NLayerApp\NLayer\NLayerApp\NLayer.API\bin\Debug\net6.0\FluentValidation.DependencyInjectionExtensions.dll
+C:\Users\Lenovo\Documents\GitHub\NLayerApp\NLayer\NLayerApp\NLayer.API\bin\Debug\net6.0\Autofac.dll
+C:\Users\Lenovo\Documents\GitHub\NLayerApp\NLayer\NLayerApp\NLayer.API\bin\Debug\net6.0\Autofac.Extensions.DependencyInjection.dll

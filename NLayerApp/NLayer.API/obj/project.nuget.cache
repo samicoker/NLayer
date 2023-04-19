@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "npeFcHv7phl27zZuRC0hTi1z4TH9VSLyTyRrfIhEXn3i9hYhdaxnRoQPgdaV+VfXKWOp1PgcUCCWaPM30xofsw==",
+  "dgSpecHash": "dAPZk5KdYSj+PnsT7B2d/AWqwKibVyOECYJIsHhWxbsRyg0adrnwp6e/ZewpGTfQT8qUT7k5SMgsoLY5vhcuNA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Lenovo\\Documents\\GitHub\\NLayerApp\\NLayer\\NLayerApp\\NLayer.API\\NLayer.API.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Lenovo\\.nuget\\packages\\autofac\\6.0.0\\autofac.6.0.0.nupkg.sha512",
+    "C:\\Users\\Lenovo\\.nuget\\packages\\autofac.extensions.dependencyinjection\\7.2.0\\autofac.extensions.dependencyinjection.7.2.0.nupkg.sha512",
     "C:\\Users\\Lenovo\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\Lenovo\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
     "C:\\Users\\Lenovo\\.nuget\\packages\\fluentvalidation\\10.3.6\\fluentvalidation.10.3.6.nupkg.sha512",
