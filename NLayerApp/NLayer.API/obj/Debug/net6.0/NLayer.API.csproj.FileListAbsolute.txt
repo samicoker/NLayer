@@ -153,3 +153,5 @@ C:\Users\Lenovo\Documents\GitHub\NLayerApp\NLayer\NLayerApp\NLayer.API\bin\Debug
 C:\Users\Lenovo\Documents\GitHub\NLayerApp\NLayer\NLayerApp\NLayer.API\bin\Debug\net6.0\FluentValidation.DependencyInjectionExtensions.dll
 C:\Users\Lenovo\Documents\GitHub\NLayerApp\NLayer\NLayerApp\NLayer.API\bin\Debug\net6.0\Autofac.dll
 C:\Users\Lenovo\Documents\GitHub\NLayerApp\NLayer\NLayerApp\NLayer.API\bin\Debug\net6.0\Autofac.Extensions.DependencyInjection.dll
+C:\Users\Lenovo\Documents\GitHub\NLayerApp\NLayer\NLayerApp\NLayer.API\bin\Debug\net6.0\NLayer.Caching.dll
+C:\Users\Lenovo\Documents\GitHub\NLayerApp\NLayer\NLayerApp\NLayer.API\bin\Debug\net6.0\NLayer.Caching.pdb
