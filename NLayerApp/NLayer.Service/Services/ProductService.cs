@@ -17,12 +17,20 @@ namespace NLayer.Service.Services
             _productRepository = productRepository;
         }
 
-        public async Task<List<ProductWithCategoryDto>> GetProductWithCategory()
-        {
+        //public async Task<List<ProductWithCategoryDto>> GetProductWithCategory()
+        //{ // web için
+        //    var products = await _productRepository.GetProductsWithCategory();
+
+        //    var productsDto = _mapper.Map<List<ProductWithCategoryDto>>(products);
+        //    return productsDto;
+        //}
+
+        public async Task<CustomResponseDto<List<ProductWithCategoryDto>>> GetProductsWithCategory()
+        { // API için
             var products = await _productRepository.GetProductsWithCategory();
 
             var productsDto = _mapper.Map<List<ProductWithCategoryDto>>(products);
-            return productsDto;
+            return CustomResponseDto<List<ProductWithCategoryDto>>.Success(200,productsDto);
         }
     }
 }
