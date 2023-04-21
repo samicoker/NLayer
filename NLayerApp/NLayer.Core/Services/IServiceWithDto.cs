@@ -15,7 +15,7 @@ namespace NLayer.Core.Services
         Task<CustomResponseDto<IEnumerable<Dto>>> GetAllAsync();
         Task<CustomResponseDto<IEnumerable<Dto>>> Where(Expression<Func<Entity, bool>> expression);
         Task<CustomResponseDto<bool>> AnyAsync(Expression<Func<Entity, bool>> expression);
-        Task<CustomResponseDto<Dto>> AddAsync(Dto entity);
+        Task<CustomResponseDto<Dto>> AddAsync(Dto dto);
         Task<CustomResponseDto<IEnumerable<Dto>>> AddRangeAsync(IEnumerable<Dto> dtos);
         Task<CustomResponseDto<NoContentDto>> UpdateAsync(Dto dto);
         Task<CustomResponseDto<NoContentDto>> RemoveAsync(int id);

@@ -23,7 +23,11 @@ namespace NLayer.API.Modules
 
             builder.RegisterGeneric(typeof(ServiceWithDto<,>)).As(typeof(IServiceWithDto<,>)).InstancePerLifetimeScope();
 
-            builder.RegisterType<UnitOfWork>().As<IUnitOfWork>();
+            builder.RegisterType<UnitOfWork>().As<IUnitOfWork>().InstancePerLifetimeScope();
+
+            builder.RegisterType<ProductServiceWithDto>().As<IProductServiceWithDto>().InstancePerLifetimeScope();
+
+
 
             // katmanları dinamik olarak getireceğiz, istersek isimlerini yazarak da getirebiliriz ama olabildiğince tip güvenli gitmek için içinden herhangi bir class getiriyoruz
 

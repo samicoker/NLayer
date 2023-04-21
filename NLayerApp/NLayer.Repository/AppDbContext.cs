@@ -18,34 +18,63 @@ namespace NLayer.Repository
         {
             // burada tüm entitylerde CreatedDate ve UpdatedDate'yi otomatik setleyeceğiz
 
-            foreach (var item in ChangeTracker.Entries())
-            {
-                if (item.Entity is BaseEntity entityReference) // tüm database entitylerimiz BaseEntityden türediği için 
-                { // BaseEntity'den türeyen classları aldık
+            //foreach (var item in ChangeTracker.Entries())
+            //{
+            //    if (item.Entity is BaseEntity entityReference) // tüm database entitylerimiz BaseEntityden türediği için 
+            //    { // BaseEntity'den türeyen classları aldık
 
-                    switch (item.State)
-                    {
-                            case EntityState.Added:
-                            {
-                                entityReference.CreatedDate = DateTime.Now;
-                                break;
-                            }
-                            case EntityState.Modified:
-                            {
-                                Entry(entityReference).Property(x => x.CreatedDate).IsModified = false;
+            //        switch (item.State)
+            //        {
+            //                case EntityState.Added:
+            //                {
+            //                    entityReference.CreatedDate = DateTime.Now;
+            //                    break;
+            //                }
+            //                case EntityState.Modified:
+            //                {
+            //                    Entry(entityReference).Property(x => x.CreatedDate).IsModified = false;
 
-                                entityReference.UpdatedDate = DateTime.Now;
-                                break;
-                            }
-                    }
-                }
-                // aynı işlemleri savechanges için de yapacağız
-            }
-
+            //                    entityReference.UpdatedDate = DateTime.Now;
+            //                    break;
+            //                }
+            //        }
+            //    }
+            //    // aynı işlemleri savechanges için de yapacağız
+            //}
+            UpdateChangeTracker();
             return base.SaveChangesAsync(cancellationToken);
         }
 
         public override int SaveChanges()
+        {
+            //foreach (var item in ChangeTracker.Entries())
+            //{
+            //    if (item.Entity is BaseEntity entityReference) // tüm database entitylerimiz BaseEntityden türediği için 
+            //    { // BaseEntity'den türeyen classları aldık
+
+            //        switch (item.State)
+            //        {
+            //            case EntityState.Added:
+            //                {
+            //                    Entry(entityReference).Property(x => x.UpdatedDate).IsModified = false;
+            //                    entityReference.CreatedDate = DateTime.Now;
+            //                    break;
+            //                }
+            //            case EntityState.Modified:
+            //                {
+            //                    Entry(entityReference).Property(x => x.CreatedDate).IsModified = false;
+            //                    entityReference.UpdatedDate = DateTime.Now;
+            //                    break;
+            //                }
+            //        }
+            //    }
+
+            //}
+            UpdateChangeTracker();
+            return base.SaveChanges();
+        }
+
+        public void UpdateChangeTracker()
         {
             foreach (var item in ChangeTracker.Entries())
             {
@@ -56,6 +85,7 @@ namespace NLayer.Repository
                     {
                         case EntityState.Added:
                             {
+                                Entry(entityReference).Property(x => x.UpdatedDate).IsModified = false;
                                 entityReference.CreatedDate = DateTime.Now;
                                 break;
                             }
@@ -67,9 +97,8 @@ namespace NLayer.Repository
                             }
                     }
                 }
-                
+
             }
-            return base.SaveChanges();
         }
         protected override void OnModelCreating(ModelBuilder modelBuilder) // entityler ile ilgili ayar yapabilmek için
         { // bu metotu override ettik ama bu ayarları configurations dosyasındaki classlarla yapmak, bestpractiseye daha uygun
